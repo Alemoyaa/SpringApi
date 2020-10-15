@@ -8,11 +8,11 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.wolox</groupId>
-	<artifactId>challengeWolox</artifactId>
+	<groupId>com.application</groupId>
+	<artifactId>application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>challengeWolox</name>
-	<description>Challenge for Wolox API REST</description>
+	<name>application</name>
+	<description>Application that consumes API "jsonplaceholder.typicode.com" and create API to management a CRUD</description>
 
 	<properties>
 		<java.version>15</java.version>

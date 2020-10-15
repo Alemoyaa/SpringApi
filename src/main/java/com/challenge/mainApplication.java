@@ -1,13 +1,13 @@
-package com.challenge;
+package com.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ChallengeWoloxApplication {
+public class mainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ChallengeWoloxApplication.class, args);
+		SpringApplication.run(mainApplication.class, args);
 	}
 
 }

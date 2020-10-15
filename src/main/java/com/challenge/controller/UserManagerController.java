@@ -1,4 +1,4 @@
-package com.challenge.controller;
+package com.application.controller;
 
 import javax.transaction.Transactional;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.challenge.entity.PermitsEntity;
-import com.challenge.entity.UserEntity;
-import com.challenge.service.UserManagerService;
+import com.application.entity.PermitsEntity;
+import com.application.entity.UserEntity;
+import com.application.service.UserManagerService;
 
 @RestController
 @CrossOrigin(origins = "*", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE,

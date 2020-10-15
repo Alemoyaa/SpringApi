@@ -1,4 +1,4 @@
-package com.challenge.common;
+package com.application.common;
 
 public interface CommonIService<E> {
 	

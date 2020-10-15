@@ -1,10 +1,10 @@
-package com.challenge.service;
+package com.application.service;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;
 
-import com.challenge.common.CommonService;
-import com.challenge.dtos.User;
+import com.application.common.CommonService;
+import com.application.dtos.User;
 
 @Service
 public class UserService extends CommonService<User>{

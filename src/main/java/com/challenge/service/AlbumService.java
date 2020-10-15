@@ -1,10 +1,10 @@
-package com.challenge.service;
+package com.application.service;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;
 
-import com.challenge.common.CommonService;
-import com.challenge.dtos.Album;
+import com.application.common.CommonService;
+import com.application.dtos.Album;
 
 @Service
 public class AlbumService extends CommonService<Album>{

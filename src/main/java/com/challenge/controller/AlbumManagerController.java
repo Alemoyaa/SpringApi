@@ -1,4 +1,4 @@
-package com.challenge.controller;
+package com.application.controller;
 
 import javax.transaction.Transactional;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.challenge.entity.AlbumEntity;
-import com.challenge.service.AlbumManagerService;
+import com.application.entity.AlbumEntity;
+import com.application.service.AlbumManagerService;
 
 @RestController
 @CrossOrigin(origins = "*", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE,

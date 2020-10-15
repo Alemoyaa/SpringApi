@@ -1,4 +1,4 @@
-package com.challenge.service;
+package com.application.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,9 +7,9 @@ import java.util.List;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;
 
-import com.challenge.common.CommonService;
-import com.challenge.dtos.Comment;
-import com.challenge.dtos.Post; 
+import com.application.common.CommonService;
+import com.application.dtos.Comment;
+import com.application.dtos.Post; 
 
 @Service
 public class CommentService extends CommonService<Comment> {

@@ -1,11 +1,11 @@
-package com.challenge.service;
+package com.application.service;
 
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.challenge.entity.PermitsEntity;
-import com.challenge.repository.PermitsManagerRepository;
+import com.application.entity.PermitsEntity;
+import com.application.repository.PermitsManagerRepository;
 
 @Service
 public class PermitsManagerService {

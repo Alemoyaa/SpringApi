@@ -1,11 +1,11 @@
-package com.challenge.service;
+package com.application.service;
 
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.challenge.entity.AlbumEntity;
-import com.challenge.repository.AlbumManagerRepository;
+import com.application.entity.AlbumEntity;
+import com.application.repository.AlbumManagerRepository;
 
 @Service
 public class AlbumManagerService {

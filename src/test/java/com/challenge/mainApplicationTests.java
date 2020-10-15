@@ -1,10 +1,10 @@
-package com.challenge;
+package com.application;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ChallengeWoloxApplicationTests {
+class mainApplicationTests {
 
 	@Test
 	void contextLoads() {

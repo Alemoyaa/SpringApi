@@ -1,6 +1,6 @@
-package com.challenge.dtos;
+package com.application.dtos;
 
-import com.challenge.common.CommonEntity;
+import com.application.common.CommonEntity;
 
 public class Post extends CommonEntity{
 	private String title;

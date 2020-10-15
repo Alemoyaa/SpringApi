@@ -1,4 +1,4 @@
-package com.challenge.dtos;
+package com.application.dtos;
 
 public class Company {
 	private String name;

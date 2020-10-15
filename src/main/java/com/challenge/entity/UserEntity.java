@@ -1,4 +1,4 @@
-package com.challenge.entity;
+package com.application.entity;
 
 import java.io.Serializable;
 import java.util.ArrayList;

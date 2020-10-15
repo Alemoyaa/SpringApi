@@ -1,4 +1,4 @@
-package com.challenge.service;
+package com.application.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.challenge.entity.PermitsEntity;
-import com.challenge.entity.UserEntity;
-import com.challenge.repository.UserManagerRepository;
+import com.application.entity.PermitsEntity;
+import com.application.entity.UserEntity;
+import com.application.repository.UserManagerRepository;
 
 @Service
 public class UserManagerService {

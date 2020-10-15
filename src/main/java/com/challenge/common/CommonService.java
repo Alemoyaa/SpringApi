@@ -1,4 +1,4 @@
-package com.challenge.common;
+package com.application.common;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.web.client.RestTemplate;
